@@ -17,7 +17,8 @@ module.exports = exports = function(a, b, opts){
 	return equal(a, b, opts || {})
 }
 
-exports.dir = dirs
+/* Deprecated syntax */ exports.dir = dirs;
+exports.dirs = dirs
 exports.file = files
 
 /**
